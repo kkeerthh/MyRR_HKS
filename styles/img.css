@@ -1,13 +1,19 @@
 img {
-    border: 5px solid #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    margin: 10px;
-    transition: transform 0.3s ease;
-    max-width: 200px;
+    max-width: 220px;
+    height: auto;
+    border-radius: 50%; /* Робить логотипи круглими */
+    border: 3px solid #f1c40f; /* Золотистий колір під тон твоїх текстів */
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    filter: grayscale(30%); /* Легкий ретро-ефект */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: inline-block;
+    margin: 15px;
 }
 
 img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    filter: grayscale(0%); /* Колір стає насиченим при наведенні */
+    transform: translateY(-10px) rotate(3deg); /* Зображення "підстрибує" та трохи повертається */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    border-color: #ecf0f1;
 }
