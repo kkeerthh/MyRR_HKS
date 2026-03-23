@@ -1,10 +1,26 @@
 body {
     background: #2c3e50;
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-    color: #ecf0f1;
+    color: #ecf0f1; /* Світло-сірий, майже білий — основний колір */
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
     min-height: 100vh;
+}
+
+.uni-text {
+    font-size: 14pt;
+    color: #f1c40f; /* Яскравий жовтий акцент — ідеально контрастує з синім фоном */
+    font-style: italic;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.footer-text {
+    font-weight: bold;
+    color: #bdc3c7; /* Світлий сріблястий колір для підпису */
+    border-top: 1px solid #7f8c8d; /* Темніша лінія, щоб не "різала" око */
+    padding-top: 10px;
+    margin-top: 30px;
 }
